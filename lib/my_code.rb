@@ -12,7 +12,7 @@ end
 
 #my own reduce
 def reduce(array)
-  new =0
+  new =[]
   index = 0 
   while index < array.size
   new+=yield(array[index])
