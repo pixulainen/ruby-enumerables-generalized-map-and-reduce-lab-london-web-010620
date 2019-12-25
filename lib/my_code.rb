@@ -10,18 +10,16 @@ def map(array)
   new
 end
 
-
-
-
-
-
-
-
-
-
-
 #my own reduce
-
+def reduce(array)
+  new = []
+  index = 0 
+  while index < array.size
+  new.push(yield(array[index]))
+  index +=1 
+  end
+  new
+end
 
 
 
