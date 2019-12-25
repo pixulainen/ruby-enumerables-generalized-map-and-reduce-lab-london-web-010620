@@ -11,14 +11,8 @@ def map(array)
 end
 
 #my own reduce
-def reduce(array)
-  new =[]
-  index = 0 
-  while index < array.size
-  new << yield(array[index])
-  index +=1 
-  end
-  new
+def reduce(array, sv = nil)
+ 
 end
 
 
