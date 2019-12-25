@@ -15,7 +15,7 @@ def reduce(array)
   new =[]
   index = 0 
   while index < array.size
-  new+=yield(array[index])
+  new << yield(array[index])
   index +=1 
   end
   new
